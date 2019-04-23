@@ -19,7 +19,7 @@ HTTP-RESPONSE = 200 caso a execução seja feita com sucesso.
 
 ```
 GET :http://localhost:8080/
-
+RESPONSE
 [
     {
         "id": "5cbe6b5d510d9f6e4c9ccbbe",
@@ -163,12 +163,6 @@ HTTP-RESPONSE = 404 caso não seja encontrado o planeta
 
 ```
 DELETE: http://localhost:8080/{id}
-BODY:
-
-{
- "name":"Terra",
- "weather":"quente"
-}
 
 HTTP-RESPONSE = 200 caso a execução seja feita com sucesso.
 HTTP-RESPONSE = 404 caso não seja encontrado o planeta
@@ -178,7 +172,7 @@ HTTP-RESPONSE = 404 caso não seja encontrado o planeta
 
 ```
 GET: http://localhost:8080/name/{name}
-BODY:
+RESPONSE:
 
 {
  "name":"Terra",
