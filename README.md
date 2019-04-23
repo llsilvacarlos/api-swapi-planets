@@ -13,6 +13,7 @@ BODY:
  "weather":"quente"
 }
 
+HTTP-RESPONSE = 200 caso a execucao seja feita com sucesso.
 ```
 
 
