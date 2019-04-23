@@ -35,6 +35,7 @@ HTTP-RESPONSE = 200 caso a execução seja feita com sucesso.
 
 ```
 GET :http://localhost:8080/api
+RESPONSE
 
 [
     {
@@ -150,7 +151,7 @@ HTTP-RESPONSE = 200 caso a execução seja feita com sucesso.
 
 ```
 GET: http://localhost:8080/{id}
-BODY:
+RESPONSE
 
 {
  "name":"Terra",
@@ -172,7 +173,7 @@ HTTP-RESPONSE = 404 caso não seja encontrado o planeta
 
 ```
 GET: http://localhost:8080/name/{name}
-RESPONSE:
+`RESPONSE`
 
 {
  "name":"Terra",
