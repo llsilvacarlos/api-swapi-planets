@@ -13,7 +13,7 @@ BODY:
  "weather":"quente"
 }
 
-HTTP-RESPONSE = 200 caso a execucao seja feita com sucesso.
+HTTP-RESPONSE = 200 caso a execução seja feita com sucesso.
 ```
 
 
@@ -29,6 +29,7 @@ GET :http://localhost:8080/
     }
 ]
 
+HTTP-RESPONSE = 200 caso a execução seja feita com sucesso.
 ```
 
 
@@ -143,6 +144,8 @@ GET :http://localhost:8080/api
     }
 ]
 
+HTTP-RESPONSE = 200 caso a execução seja feita com sucesso.
+
 ```
 
 ```
@@ -154,6 +157,8 @@ BODY:
  "weather":"quente"
 }
 
+HTTP-RESPONSE = 200 caso a execução seja feita com sucesso.
+HTTP-RESPONSE = 404 caso não seja encontrado o planeta
 ```
 
 ```
@@ -164,6 +169,9 @@ BODY:
  "name":"Terra",
  "weather":"quente"
 }
+
+HTTP-RESPONSE = 200 caso a execução seja feita com sucesso.
+HTTP-RESPONSE = 404 caso não seja encontrado o planeta
 
 ```
 
@@ -176,5 +184,8 @@ BODY:
  "name":"Terra",
  "weather":"quente"
 }
+
+HTTP-RESPONSE = 200 caso a execução seja feita com sucesso.
+HTTP-RESPONSE = 404 caso não seja encontrado o planeta
 
 ```
