@@ -144,4 +144,36 @@ GET :http://localhost:8080/api
 
 ```
 
+```
+GET: http://localhost:8080/{id}
+BODY:
 
+{
+ "name":"Terra",
+ "weather":"quente"
+}
+
+```
+
+```
+DELETE: http://localhost:8080/{id}
+BODY:
+
+{
+ "name":"Terra",
+ "weather":"quente"
+}
+
+```
+
+
+```
+GET: http://localhost:8080/name/{name}
+BODY:
+
+{
+ "name":"Terra",
+ "weather":"quente"
+}
+
+```
