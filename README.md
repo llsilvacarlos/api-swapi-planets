@@ -145,14 +145,3 @@ GET :http://localhost:8080/api
 ```
 
 
-GET :http://localhost:8080/{id}
-
-[
-    {
-        "id": "5cbe6b5d510d9f6e4c9ccbbe",
-        "name": "Terra",
-        "weather": "quente",
-        "quantityMovies": 0
-    }
-]
-```
