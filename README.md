@@ -1,6 +1,5 @@
-# dna-services
+# Planets-api
 
-# DNA
 
 
 
