@@ -173,7 +173,7 @@ HTTP-RESPONSE = 404 caso não seja encontrado o planeta
 
 ```
 GET: http://localhost:8080/name/{name}
-`RESPONSE`
+RESPONSE
 
 {
  "name":"Terra",
